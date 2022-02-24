@@ -1,0 +1,60 @@
+.nav-heading{
+    font-style: italic;
+    color: #086599;
+    font-weight: 700;
+    font-family: sans-serif;
+    
+}
+@media screen  and (max-width: 768px) {
+  .nav-heading{
+      font-size: 15px;
+  }
+}
+.navbar{
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    padding: 0 5%;
+    background-color: #fff;
+}
+@media screen and (min-width: 768px) {
+    .navbar{
+         padding:0 6%; 
+    }
+}
+.logo{
+    height: 30px;
+}
+@media screen and (min-width: 768px) {
+    .logo{
+        height: 40px;
+    }
+}
+.avatar {
+    vertical-align: middle;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+  }
+@media screen and (min-width: 768px) {
+    .avatar{
+        width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    }
+}
+.btn-secondary:hover{
+    border: none;
+    background-color: transparent;
+    box-shadow: none;
+}
+.btn-secondary:focus{
+    border: none;
+    background-color: transparent;
+    box-shadow: none;
+}
+.dropdown-menu{
+    min-width: 6rem;
+}
+.btn-secondary{
+    background-color: transparent;
+    border: none;
+}
